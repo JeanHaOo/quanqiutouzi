@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>海外医疗列表</title>
+        <link rel="stylesheet" href="jh_fx168_investing.css " type="text/css">
+        <script src='jquery-1.7.2.min.js'  type="text/javascript"></script>
+        <script src="jquery.SuperSlide.2.1.1.js"  type="text/javascript"></script>
+        <script src='jh_fx168_investing.js'  type="text/javascript"></script>
+    </head>
+	<body>
+        <header>
+            <div class="header">
+                <div class="jh_investing_header clearfix"> 
+                   <div class="header_left">
+                       <div class="logo"><a href="#"><img src="jh_investing_logo.png"  width="94" height="40"/></a></div>
+                       <div class="global"><img src="jh_globe_investing.png" width="180" height="49"/></div>
+                    </div>
+                    <div class="header_middle">
+                        <div class="key_search">
+                            <input type="text" placeholder="加拿大" value="加拿大" class="text"/>
+                            <input type="button" class="submit"/ >  
+                        </div>
+                        <div class="hot_recommond">
+                           <span>热门推荐 :</span><a href="#">温哥华当地中介</a><a href="#">温哥华当地中介</a><a href="#">温哥华当地中介</a>
+                        </div>
+                    </div>
+                    <div class="header_right" id="header_right">
+                        <ul>
+                            <li><a href="#" title="登录" >登录<em>|</em></a></li>
+                            <li><a href="#" title="注册" >注册<em>|</em></a></li>
+                            <li onmouseenter="customOver()" onmouseleave="customOut()" >
+                                <a href="#" title="在线客服" >在线客服<em>|</em></a>
+                                <div class="show3 position" style="display:none" >
+                                    <i class="arrow1"></i>
+                                    <i class="arrow2"></i>
+                                    <div class="qq">
+                                        <a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4006168525&aty=0&a=0&curl=&ty=1" target="_blank" title="在线QQ">
+                                            <span class="bg bg_qq1"><img src="jh_fx168_home_default_Nav_right_qq.png" width="98" height="98" ></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li onmouseenter="followOver()" onmouseleave="followOut()">
+                                <a href="#" title="关注" >关注</a>
+                                <div class="followErweima" style="display:none" >
+                                    <i class="erarrow1"></i>
+                                    <i class="erarrow2"></i>
+                                    <img src="jy_fx168_home_default_apperweima.png"/ width='120' height='120'>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="section">
+                <!--导航-->
+                <div class="jh_investing_nav">
+                    <div class="inner_nav">
+                        <ul>
+                            <li >
+                                <a href="./jh_fx168_investing.html" title="首页"  target="_blank">首页</a>
+                            </li>
+                            <li>
+                                <a href="#" title="海外房产"  target="_blank">海外房产</a>
+                            </li>
+                            <li>
+                                <a href="./jh_fx168_investing_abroad.html"  title="留学游学" target="_blank">留学游学</a>
+                            </li>
+                            <li>
+                                <a href="./jh_fx168_investing_finance.html" title="海外金融" target="_blank">海外金融</a>
+                            </li>
+                            <li class="self">
+                                <a href="./jh_fx168_investing_medical.html" title="海外定制医疗" target="_blank">海外定制医疗</a>
+                            </li>
+                            <li>
+                                <a href="#" title="投资指南" target="_blank">投资指南</a>
+                            </li>
+                            <li>
+                                <a href="./jh_fx168_investing_salon.html" title="FX168全球资产财富沙龙"  target="_blank">FX168全球资产财富沙龙</a>
+                            </li>
+                             <li>
+                                <a href="#" title="全球投资市场蓝皮书"  target="_blank">全球投资市场蓝皮书</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--医疗列表-->
+                <div class="jh_medical_wrap">
+                    <div class="jh_medicalContainer">
+                        <div class="medical_tops clearfix">
+                            <div class="medical_left">
+                                <h2><span></span>海外医疗</h2>
+                                <div class="medicalList">
+                                    <ul>
+                                        <li class="clearfix">
+                                           <div class="medicalPic">
+                                                <a href="#"><img src="home_pic1.jpg"/ width="260" height="160"></a>
+                                                <div class="text_wrap">
+                                                    <div class="bg"></div>
+                                                    <p><a href="#" title="" target="_blank">【墨尔本】丽思·卡尔顿奢华公寓</a></p>
+                                                </div>
+                                           </div>
+                                           <div class="medicalContain">
+                                                <h3><a href="#"> <span></span>日本私立医院综合体检</a></h3>
+                                                <div class="price">费用 :<span>2<b></b>10万人民币</span></div>
+                                                <p><span>项目简介</span><em>:</em>日本早期防癌检查，领先世界防癌筛查的前列，现有检测
+                                                    技术，可以发现和排查已知300多种早初期癌症......
+                                                </p>
+                                                <div class="keyword">
+                                                    <span>医术佳</span>
+                                                    <span>医疗资源齐全</span>
+                                                    <span>医疗资源齐全</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                           <div class="medicalPic">
+                                                <a href="#"><img src="home_pic1.jpg"/ width="260" height="160"></a>
+                                                <div class="text_wrap">
+                                                    <div class="bg"></div>
+                                                    <p><a href="#" title="" target="_blank">【墨尔本】丽思·卡尔顿奢华公寓</a></p>
+                                                </div>
+                                           </div>
+                                           <div class="medicalContain">
+                                                <h3><a href="#"> <span></span>日本私立医院综合体检</a></h3>
+                                                <div class="price">费用 :<span>2<b></b>10万人民币</span></div>
+                                                <p><span>项目简介</span><em>:</em>日本早期防癌检查，领先世界防癌筛查的前列，现有检测
+                                                    技术，可以发现和排查已知300多种早初期癌症......
+                                                </p>
+                                                <div class="keyword">
+                                                    <span>医术佳</span>
+                                                    <span>医疗资源齐全</span>
+                                                    <span>医疗资源齐全</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                           <div class="medicalPic">
+                                                <a href="#"><img src="home_pic1.jpg"/ width="260" height="160"></a>
+                                                <div class="text_wrap">
+                                                    <div class="bg"></div>
+                                                    <p><a href="#" title="" target="_blank">【墨尔本】丽思·卡尔顿奢华公寓</a></p>
+                                                </div>
+                                           </div>
+                                           <div class="medicalContain">
+                                                <h3><a href="#"> <span></span>日本私立医院综合体检</a></h3>
+                                                <div class="price">费用 :<span>2<b></b>10万人民币</span></div>
+                                                <p><span>项目简介</span><em>:</em>日本早期防癌检查，领先世界防癌筛查的前列，现有检测
+                                                    技术，可以发现和排查已知300多种早初期癌症......
+                                                </p>
+                                                <div class="keyword">
+                                                    <span>医术佳</span>
+                                                    <span>医疗资源齐全</span>
+                                                    <span>医疗资源齐全</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--通用右侧-->
+                            <div class="abroad_right">
+                                <div class="abroad_news">
+                                    <h3><span><a href="#" target="_blank">更多</a></span>最新资讯</h3>
+                                    <div class="abroadnewsList">
+                                        <ul>
+                                            <li class="clearfix">
+                                                <span>18-05-25</span>
+                                                <a href="#" title="" target="_blank">海外房产砥砺奋进法冷静的了产砥砺奋进法冷静的</a>
+                                            </li>
+                                            <li class="clearfix">
+                                                <span>18-05-25</span>
+                                                <a href="#" title="" target="_blank">海外房产砥砺奋进法冷静的了产砥砺奋进法冷静的</a>
+                                            </li>
+                                            <li class="clearfix">
+                                                <span>18-05-25</span>
+                                                <a href="#" title="" target="_blank">海外房产砥砺奋进法冷静的了产砥砺奋进法冷静的</a>
+                                            </li>
+                                            <li class="clearfix">
+                                                <span>18-05-25</span>
+                                                <a href="#" title="" target="_blank">海外房产砥砺奋进法冷静的了产砥砺奋进法冷静的</a>
+                                            </li>
+                                            <li class="clearfix">
+                                                <span>18-05-25</span>
+                                                <a href="#" title="" target="_blank">海外房产砥砺奋进法冷静的了产砥砺奋进法冷静的</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="commonQuestion">
+                                    <h3>常见问题</h3>
+                                    <div class="questionContain">
+                                        <ul>
+                                            <li>
+                                                <div class="qusetion">低龄儿童如何申请海外刘留学？</div>
+                                                <div class="answer">海外的房产贷款规则说明，海外的房产贷款规 则说明，海外的房产贷款海外的房产贷款规则 说明，海外的房产贷款规则说明，海外的房产 贷款海外的房产贷款规则说明，海外的房产贷 款规则说明，海外的房产贷款......</div>
+                                            </li>
+                                        </ul>
+                                        <div class="asker"><a href="#">在线提问</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--通用喜欢-->
+                        <div class="abroad_other">
+                            <h3><span></span>可能喜欢</h3>
+                            <div class="productList clearfix">
+                                <ul>
+                                    <li>
+                                       <a href="#" title="" target="_blank"><img src="abroad_product.jpg"  width="325" height="200"></a>
+                                        <div class="text_wrap">
+                                            <div class="bg"></div>
+                                            <p><a href="#" title="" target="_blank">【墨尔本】丽思·卡尔顿奢华公寓</a></p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                       <a href="#" title="" target="_blank"><img src="abroad_product.jpg"  width="325" height="200"></a>
+                                        <div class="text_wrap">
+                                            <div class="bg"></div>
+                                            <p><a href="#" title="" target="_blank">【墨尔本】丽思·卡尔顿奢华公寓</a></p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                       <a href="#" title="" target="_blank"><img src="abroad_product.jpg"  width="325" height="200"></a>
+                                        <div class="text_wrap">
+                                            <div class="bg"></div>
+                                            <p><a href="#" title="" target="_blank">【墨尔本】丽思·卡尔顿奢华公寓</a></p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <fotter>
+            <div class="fotter">
+                <div class="fotter_top">
+                    <div class="inner_footer_top clearfix">
+                        <div class="footer_top_left">
+                            <div class="footer_title">关于FX168全球投资</div>
+                             <p>FX168全球投资是FX168财经集团全新打造的全球投资一站式服务平台，该平台以FX168金融研究院的投研成果为核心，提供投研报告、理财咨询服务、线下财富沙龙以及全球投资蓝皮书等服务，同时精选优质的海外投资品供应商，让全球投资客群及时获取：</p> 
+                             <p><span> ①全球金融投资</span> <span>②国际置业规划</span> <span>③海外留学游学</span><span>④海外定制医疗等专家服务与优选产品</span></p>
+                            <div class="footer_servies"></div>
+                        </div>
+                        <div class="footer_top_right">
+                            <ul>
+                                <li>
+                                    <div class="footer_infomation"><em class="foot1"></em>服务热线</div>
+                                    <span>021－53823500</span>
+                                </li>
+                                <li>
+                                    <div class="footer_infomation"><em class="foot2"></em>微信小助手</div>
+                                    <span>wechat : FX168全球投资</span>
+                                    <div class="erweimaImg"><img src="footer_erweima1.png"/ width="110" height="116"></div>
+                                </li>
+                                <li>
+                                    <div class="footer_infomation"><em class="foot3"></em>在线客服</div>
+                                    <div class="footqq"><a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4006168525&aty=0&a=0&curl=&ty=1" target="_blank" title="在线QQ"></a></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="yjl_fx168_footBox">
+                    <div class="footContent_middle_wrap">
+                        <div class="yjl_fx168_footContent clearfix">
+                            <div class="yjl_fx168_footA">
+                                <div class="yjl_fx168_footA_logo">
+                                </div>
+                                <div class="yjl_fx168_footA_4site">
+                                    
+                                        <span>
+                                        <a href="http://www.fx168.com/" title="FX168" target="_blank">
+                                            FX168
+                                        </a>
+                                        </span>
+                                    
+                                        <span>
+                                        <a href="http://99qh.fx168.com/" title="99期货" target="_blank">
+                                            99期货
+                                        </a>
+                                        </span>
+                                    
+                                        <span>
+                                        <a href="http://www.2rich.net" title="瑞财网" target="_blank">
+                                            瑞财网
+                                        </a>
+                                        </span>
+                                    
+                                </div>
+                                <div class="yjl_fx168_footA_gov">
+                                    <ul>
+                                        
+                                        <li>
+                                            <a rel="nofollow" onfocus="this.blur()" href="http://www.zx110.org/cxs/index.html" title="网络社会征信网" target="_blank">
+                                            </a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a rel="nofollow" onfocus="this.blur()" href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=20120528104953163" title="上海市工商行政管理局" target="_blank">
+                                            </a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a rel="nofollow" onfocus="this.blur()" href="http://www.cyberpolice.cn/wfjb/" title="上海网警网络110" target="_blank">
+                                            </a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a rel="nofollow" onfocus="this.blur()" href="http://bcainfo.miitbeian.gov.cn/publish/query/indexFirst.action" title="ICP备案" target="_blank">
+                                            </a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="yjl_fx168_footB">
+                                <ul>
+                                   <h3>
+                                    <a href="http://news.fx168.com/" title="财经资讯" target="_blank">
+                                        财经资讯
+                                    </a>
+                                    </h3>
+                                
+                                
+                                    <li>
+                                    <a href="http://news.fx168.com/all/" title="所有信息" target="_blank">
+                                        所有信息
+                                    </a>
+                                    </li>
+                                
+                                    <li>
+                                    <a href="http://forex.fx168.com/" title="外汇" target="_blank">
+                                        外汇
+                                    </a>
+                                    </li>
+                                
+                                    <li>
+                                    <a href="http://t.news.fx168.com/" title="火线速递" target="_blank">
+                                        火线速递
+                                    </a>
+                                    </li>
+                                
+                                    <li>
+                                    <a href="http://24k99.fx168.com/" title="贵金属" target="_blank">
+                                        贵金属
+                                    </a>
+                                    </li>
+                                
+                                    <li>
+                                    <a href="http://news.fx168.com/top/" title="要闻头条" target="_blank">
+                                        要闻头条
+                                    </a>
+                                    </li>
+                                
+                                    <li>
+                                    <a href="http://99qh.fx168.com/" title="期货" target="_blank">
+                                        期货
+                                    </a>
+                                    </li>
+                                
+                                    <li>
+                                    <a href="http://forex.fx168.com/strategy/" title="操作策略" target="_blank">
+                                        操作策略
+                                    </a>
+                                    </li>
+                                
+                                    <li>
+                                    <a href="http://oil.fx168.com/" title="原油" target="_blank">
+                                        原油
+                                    </a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="yjl_fx168_footC">
+                                <ul>
+                                    
+                                        <h3>
+                                        <a href="http://quote.fx168.com/" title="行情数据" target="_blank" rel="nofollow">
+                                            行情数据
+                                        </a>
+                                        </h3>
+                                    
+                                    
+                                        <li>
+                                        <a href="http://datainfo.fx168.com/calendar.shtml" title="财经日历" target="_blank">
+                                            财经日历
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a href="http://datainfo.fx168.com/chart/" title="图表中心" target="_blank">
+                                            图表中心
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a href="http://quote.fx168.com/spot/" title="外汇行情" target="_blank">
+                                            外汇行情
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a href="http://quote.fx168.com/DINI/" title="美元行情" target="_blank">
+                                            美元行情
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a href="http://quote.fx168.com/rate/" title="人民币牌价" target="_blank">
+                                            人民币牌价
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a href="http://quote.fx168.com/showration/" title="货币兑换" target="_blank">
+                                            货币兑换
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a href="http://broker.fx168.com/" title="经纪商排行" target="_blank">
+                                            经纪商排行
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a href="http://industry.fx168.com/news/broker/" title="经纪商新闻" target="_blank">
+                                            经纪商新闻
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a href="http://cfh.fx168.com/" title="活动频道" target="_blank">
+                                            活动频道
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a href="http://www.fx168.com/about/hj/" title="黄金百科" target="_blank">
+                                            黄金百科
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a href="http://www.fx168.com/about/wh/" title="外汇百科" target="_blank">
+                                            外汇百科
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a href="http://www.fx168.com/about/qt/" title="其他百科" target="_blank">
+                                            其他百科
+                                        </a>
+                                        </li>
+                                    
+                                </ul>
+                                <!-- <h5>
+                                    <a href="#" title="网站地图" target="_blank">
+                                        网站地图
+                                    </a>
+                                </h5>-->
+                            </div>
+                            <div class="yjl_fx168_footD">
+                                <div class="yjl_fx168_footD_ico">
+                                    <ul>
+                                        <li class="yjl_fx168_footD_sina">
+                                            
+                                            <a rel="nofollow" onfocus="this.blur()" href="http://www.weibo.com/fx168caijing" title="关注FX168新浪微博" target="_blank">
+                                            </a>
+                                            
+                                        </li>
+                                        <li class="yjl_fx168_footD_qq">
+                                            
+                                            <a rel="nofollow" onfocus="this.blur()" href="http://e.t.qq.com/FX168FX168" title="关注FX168腾讯微博" target="_blank">
+                                            </a>
+                                            
+                                        </li>
+                                        <li class="yjl_fx168_footD_weixin">
+                                            
+                                            <a rel="nofollow" onfocus="this.blur()" href="http://www.fx168.com/about/share.html" title="加FX168微信为好友吧" target="_blank">
+                                            </a>
+                                            
+                                        </li>
+                                        <li class="yjl_fx168_footD_email">
+                                            
+                                            <a rel="nofollow" onfocus="this.blur()" href="mailto:service@fx168group.com" title="邮件联系我们" target="_blank">
+                                            </a>
+                                            
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="yjl_fx168_footD_erweima">
+                                </div>
+                                <div class="yjl_fx168_footD_erweimaP">
+                                    FX168财经客户端
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                        <div class="yjl_fx168_footCompany">
+                            <div class="yjl_fx168_footCompanyBox">
+                                <ul>
+                                    <li>
+                                        <span>
+                                            ©
+                                        </span>
+                                        
+                                            2000-2018 上海科视数码频道制作有限公司版权所有www.FX168.com
+                                        
+                                    </li>
+                                    
+                                        <li>
+                                        <a rel="nofollow" href="http://bcainfo.miitbeian.gov.cn/publish/query/indexFirst.action" title="沪ICP备05009270" target="_blank">
+                                            沪ICP备05009270
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a rel="nofollow" href="http://www.fx168group.com/" title="集团介绍" target="_blank">
+                                            集团介绍
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a rel="nofollow" href="http://www.fx168group.com/contact.html" title="联系方式" target="_blank">
+                                            联系方式
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a rel="nofollow" href="http://www.fx168.com/about/copyright.html" title="版权声明" target="_blank">
+                                            版权声明
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a rel="nofollow" href="http://product.fx168.com/adcenter.shtml" title="收费服务" target="_blank">
+                                            收费服务
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a rel="nofollow" href="http://product.fx168.com/contact.shtml" title="业务联系" target="_blank">
+                                            业务联系
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a rel="nofollow" href="http://www.fx168.com/about/tellreader.html" title="敬告读者" target="_blank">
+                                            敬告读者
+                                        </a>
+                                        </li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </fotter>
+        <div class="right_follow">
+            <div class="show_container">
+               <div class="right_qq" style="display: none"><span></span></div>
+               <div class="show_tele" style="display: none"><img src="jh_follow_showtel.png" width="186" height="61"/></div>
+               <div class="show_erweima" style="display: none"><img src="jh_follow_showerweima.png" width="146" height="141"></div>
+            </div>
+            <div class="right_icons">
+                <ul>
+                    <li class="qq"><a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4006168525&aty=0&a=0&curl=&ty=1" target="_blank" title="在线QQ"></a></li>
+                    <li class="tele" onmouseover="teleOver()" onmouseout="teleOut()"></li>
+                    <li class="wechat" onmouseover="wechatOver()" onmouseout="wechatOut()"></li>
+                    <li class="backtop" onclick="gotoTop()"></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
+            
